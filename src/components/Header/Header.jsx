@@ -79,9 +79,16 @@ const Header = () => {
         open={drawerOpen}
         getContainer={false}
         bodyStyle={{ padding: 0 }}
+        style={{ background: 'transparent' }} 
         className="custom-drawer"
       >
-        <Menu mode="vertical" theme="light" items={menuItems} onClick={handleMenuClick} />
+        <Menu 
+        mode="vertical" 
+        theme="light" 
+        items={menuItems} 
+        onClick={handleMenuClick}
+        style={{ background: 'transparent'}} 
+         />
       </Drawer>
     </>
   );
