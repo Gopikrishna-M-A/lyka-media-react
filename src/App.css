@@ -48,10 +48,14 @@ body {
 :where(.css-dev-only-do-not-override-txh9fw).ant-menu-light .ant-menu-item-selected, :where(.css-dev-only-do-not-override-txh9fw).ant-menu-light>.ant-menu .ant-menu-item-selected {
   color: #fcfc00 ;
 }
+.ant-menu-title-content{
+  color: #fff;
+}
 
 .ant-menu-item {
-  font-size: 60px;
-  font-weight: 800;
+  font-size: 60px !important;
+  font-weight: 800 !important;
+  color: #fff !important;
 }
 .ant-menu-item:hover {
   color: #fcfc00 !important;
@@ -64,8 +68,8 @@ body {
   background-color: transparent !important;
 }
 :where(.css-dev-only-do-not-override-txh9fw).ant-menu-inline >.ant-menu-item, :where(.css-dev-only-do-not-override-txh9fw).ant-menu-vertical >.ant-menu-item, :where(.css-dev-only-do-not-override-txh9fw).ant-menu-inline >.ant-menu-submenu>.ant-menu-submenu-title, :where(.css-dev-only-do-not-override-txh9fw).ant-menu-vertical >.ant-menu-submenu>.ant-menu-submenu-title {
-  height: 45px;
-  line-height: 45px;
+  height: 45px !important;
+  line-height: 45px !important;
 }
 .ant-menu{
   height: 100%;
