@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Menu, Drawer } from 'antd';
 import { MenuOutlined } from '@ant-design/icons';
 import { useNavigate } from 'react-router-dom';
+import '../../App.css';
 
 const Header = () => {
   const navigate = useNavigate();
