@@ -87,7 +87,7 @@ const Header = () => {
         theme="light" 
         items={menuItems} 
         onClick={handleMenuClick}
-        style={{ background: 'transparent'}} 
+        style={{ background: 'transparent',color:"#fff"}} 
          />
       </Drawer>
     </>
