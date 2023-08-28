@@ -15,6 +15,7 @@ body {
 }
 
 .menu-header {
+  z-index: 1;
   position: fixed;
   top: 0;
   left: 0;
@@ -168,12 +169,12 @@ body {
   color: white;
 }
 
-.service-box:hover .anticon {
+.service .service-box:hover .anticon {
   color:#70152f;
 }
 
 
-.service-box:hover .service-name {
+.service .service-box:hover .service-name {
   color:#70152f !important;
 }
 .service-title-wrapper{
@@ -266,6 +267,59 @@ body {
 }
 
 
+
+
+
+
+/* SERVICE PAGE  */
+
+.Service-section{
+  height:100vh;
+  padding: 30px 150px;
+}
+
+.service-section-title-wrapper{
+
+}
+
+.service-section-title{
+  color: #fff !important;
+  max-width: 260px;
+}
+
+
+.service-section-content-wrapper{
+
+}
+
+.service-section-content{
+  margin-top: 100px;
+  color: #fff;
+}
+
+
+
+/* ABOUT US PAGE */
+
+.about-us{
+  padding: 30px 150px;
+}
+.about-section-title-wrapper{
+
+}
+
+.about-section-content-wrapper{
+
+}
+
+.about-section-content{
+  margin-top: 100px;
+  font-weight: 700;
+}
+
+
+
+
 @media (width < 1200px){
   .hero-text-lg{
     font-size: 70px;
@@ -324,6 +378,19 @@ body {
 
   .contact-title{
     font-size: 35px;
+  }
+
+
+  .Service-section{
+    height:100vh;
+    padding: 30px 20px;
+  }
+
+
+
+
+  .about-us{
+    padding: 30px 20px;
   }
 
 }

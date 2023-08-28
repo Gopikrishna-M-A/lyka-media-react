@@ -68,6 +68,7 @@ const Header = () => {
     <>
       <div className="menu-header">
         <MenuOutlined
+
           onClick={() => setDrawerOpen(true)}
           style={{ fontSize: '50px' }}
         />

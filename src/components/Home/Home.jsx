@@ -3,7 +3,7 @@ import { Row, Typography } from 'antd';
 
 const { Text } = Typography;
 
-const Home = ({ id, content }) => {
+const Home = ({ id }) => {
   return (
     <div className='home' id={id} style={{ minHeight: '100vh', padding: '20px',paddingTop: '0', backgroundColor: '#6a2870'}}>
         <Row className='logo-wrapper'>

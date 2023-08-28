@@ -3,7 +3,7 @@ import { Row, Typography } from 'antd';
 import { MailOutlined, FacebookOutlined, TwitterOutlined, InstagramOutlined, PhoneOutlined } from '@ant-design/icons'
 const { Text } = Typography;
 
-const Contact = ({ id, content }) => {
+const Contact = ({ id }) => {
   return (
     <div id={id} style={{ height: '100vh', padding: '20px', backgroundColor: '#f9ee6a'}}>
 

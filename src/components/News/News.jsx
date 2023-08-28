@@ -3,7 +3,7 @@ import { Carousel } from 'antd';
 
 
 
-const News = ({ id, content }) => {
+const News = ({ id }) => {
   return (
     <div id={id} style={{ padding:'20px', backgroundColor: '#f18b5d'}}>
       <Carousel autoplay dot >
