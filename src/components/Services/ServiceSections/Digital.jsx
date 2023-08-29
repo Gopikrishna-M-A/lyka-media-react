@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Typography } from "antd";
-import { AppleOutlined } from "@ant-design/icons";
+import { CodeSandboxOutlined, LaptopOutlined, MobileOutlined, NotificationOutlined, BoxPlotOutlined, RobotOutlined, ApartmentOutlined, ApiOutlined } from "@ant-design/icons";
 const { Title } = Typography;
 
 export default function Digital({id}) {
@@ -13,14 +13,14 @@ export default function Digital({id}) {
       <Row className="service-section-content-wrapper">
         <Row className="service-items">
           <div className="service-box">
-            <AppleOutlined className="service-icon" />
+            <LaptopOutlined className="service-icon" />
             <Title level={3} className="service-name">
               WEB  <br /> DEVELOPMENT
             </Title>
           </div>
 
           <div className="service-box">
-            <AppleOutlined className="service-icon" />
+            <MobileOutlined className="service-icon" />
             <Title level={3} className="service-name">
               MOBILE <br />
               APPLICATIONS
@@ -28,42 +28,42 @@ export default function Digital({id}) {
           </div>
 
           <div className="service-box">
-            <AppleOutlined className="service-icon" />
+            <NotificationOutlined className="service-icon" />
             <Title level={3} className="service-name">
               DIGITAL <br /> MARKETTING
             </Title>
           </div>
 
           <div className="service-box">
-            <AppleOutlined className="service-icon" />
+            <BoxPlotOutlined className="service-icon" />
             <Title level={3} className="service-name">
               AR, VR, <br /> MR & XR
             </Title>
           </div>
 
           <div className="service-box">
-            <AppleOutlined className="service-icon" />
+            <RobotOutlined className="service-icon" />
             <Title level={3} className="service-name">
               ARTIFICIAL <br /> INTELLIGENCE
             </Title>
           </div>
 
           <div className="service-box">
-            <AppleOutlined className="service-icon" />
+            <ApartmentOutlined className="service-icon" />
             <Title level={3} className="service-name">
               ENTERPRICE <br /> BLOCKCHAIN
             </Title>
           </div>
 
           <div className="service-box">
-            <AppleOutlined className="service-icon" />
+            <ApiOutlined className="service-icon" />
             <Title level={3} className="service-name">
               INTERNET <br /> OF THINGS
             </Title>
           </div>
 
           <div className="service-box">
-            <AppleOutlined className="service-icon" />
+            <CodeSandboxOutlined className="service-icon" />
             <Title level={3} className="service-name">
               MACHINE <br /> LEARNING
             </Title>

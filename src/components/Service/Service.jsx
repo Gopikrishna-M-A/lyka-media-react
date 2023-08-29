@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Typography } from 'antd';
-import { AppleOutlined } from '@ant-design/icons'
+import { HeatMapOutlined, AimOutlined, ShareAltOutlined, RocketOutlined, PlayCircleOutlined, BuildOutlined, BorderOutlined, DotChartOutlined } from '@ant-design/icons'
 import { useNavigate } from 'react-router-dom';
 const { Text, Title } = Typography;
 
@@ -28,42 +28,42 @@ const Service = ({ id }) => {
         <Row className='service-items'>
           
             <div className="service-box" onClick={() => handleServiceClick("service-stratergy")}>
-              <AppleOutlined  className='service-icon' />
+              <HeatMapOutlined className='service-icon'/>
               <Title level={3} className='service-name'>SRATERGY & CONSULTANCY</Title>
             </div>
 
             <div className="service-box" onClick={() => handleServiceClick("service-branding")}>
-              <AppleOutlined  className='service-icon' />
+              <AimOutlined  className='service-icon'/>
               <Title level={3} className='service-name'>BRANDING & DESIGN</Title>
             </div>
 
             <div className="service-box" onClick={() => handleServiceClick("service-social")}>
-              <AppleOutlined  className='service-icon' />
+              <ShareAltOutlined  className='service-icon' />
               <Title level={3} className='service-name'>SOCIAL MEDIA</Title>
             </div>
 
             <div className="service-box" onClick={() => handleServiceClick("service-digital")}>
-              <AppleOutlined  className='service-icon' />
+              <RocketOutlined  className='service-icon' />
               <Title level={3} className='service-name'>DIGITAL & INNOVATION</Title>
             </div>
 
             <div className="service-box" onClick={() => handleServiceClick("service-video")}>
-              <AppleOutlined  className='service-icon' />
+              <PlayCircleOutlined  className='service-icon' />
               <Title level={3} className='service-name'>VIDEO, AUDIO & ANIMATION</Title>
             </div>
 
             <div className="service-box" onClick={() => handleServiceClick("service-pr")}>
-              <AppleOutlined  className='service-icon' />
+              <BuildOutlined  className='service-icon' />
               <Title level={3} className='service-name'>PR</Title>
             </div>
 
             <div className="service-box" onClick={() => handleServiceClick("service-media")}>
-              <AppleOutlined  className='service-icon' />
+              <BorderOutlined  className='service-icon' />
               <Title level={3} className='service-name'>MEDIA PLANNING & BUYING</Title>
             </div>
 
             <div className="service-box" onClick={() => handleServiceClick("service-events")}>
-              <AppleOutlined  className='service-icon' />
+              <DotChartOutlined  className='service-icon' />
               <Title level={3} className='service-name'>EVENTS</Title>
             </div>
             

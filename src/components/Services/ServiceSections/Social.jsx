@@ -4,7 +4,8 @@ const { Text, Title } = Typography;
 
 export default function Social({id}) {
   return (
-    <div id={id} className='Service-section' style={{backgroundColor:"#468B97" }}>
+    <div id={id} className='Service-section' >
+          <img className='bg-img' src="/images/social.jpg" alt="" />
         <Row className='service-section-title-wrapper'>
             <Title className='service-section-title'>SOCIAL MEDIA</Title>
         </Row>

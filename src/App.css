@@ -15,7 +15,7 @@ body {
 }
 
 .menu-header {
-  z-index: 1;
+  z-index: 2;
   position: fixed;
   top: 0;
   left: 0;
@@ -29,6 +29,7 @@ body {
   color: #fff;
   font-size: 24px;
 }
+
 .ant-drawer{
   position: fixed;
 }
@@ -104,20 +105,35 @@ body {
 
 /* home */
 .home{
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: hidden;
+
+}
+#video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* z-index: -1; */
+
 }
 .logo-wrapper{
-
+  z-index: 1;
 }
 .logo{  
   font-size: 40px;
   font-weight: 900;
   color: #fff;
+  text-shadow: 4px 3px 0px #000000, 9px 8px 0px rgba(0,0,0,0.15);
 
 }
 .home-center-text{
+  z-index: 1;
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -126,11 +142,13 @@ body {
   font-size: 80px;
   font-weight: 900;
   color: #fff;
+  text-shadow: 3px 3px 0px #000000, 5px 4px 0px rgba(0,0,0,0.15);
 }
 .hero-text-sm{
   font-size: 30px;
   font-weight: 900;
   color: #fff;
+  text-shadow: 2px 2px 0px #000000, 3px 3px 0px rgba(0,0,0,0.15);
   
 }
 .end{
@@ -284,7 +302,7 @@ body {
 
 .service-section-title{
   color: #fff !important;
-  max-width: 260px;
+  max-width: 267px;
 }
 
 
@@ -318,6 +336,48 @@ body {
 }
 
 
+
+
+
+
+
+/* IMAGES */
+
+#service-stratergy{
+  overflow: hidden;
+  position: relative;
+  background-color: transparent;
+}
+#service-social{
+  overflow: hidden;
+  position: relative;
+  background-color: transparent;
+}
+#service-pr{
+  overflow: hidden;
+  position: relative;
+  background-color: transparent;
+}
+#service-media{
+  overflow: hidden;
+  position: relative;
+  background-color: transparent;
+}
+#service-events{
+  overflow: hidden;
+  position: relative;
+  background-color: transparent;
+}
+
+.bg-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1
+}
 
 
 @media (width < 1200px){

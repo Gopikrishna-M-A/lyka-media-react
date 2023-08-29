@@ -4,7 +4,8 @@ const { Text, Title } = Typography;
 
 export default function Media({id}) {
   return (
-    <div id={id} className='Service-section' style={{backgroundColor:"#F3AA60" }}>
+    <div id={id} className='Service-section' >
+              <img className='bg-img' src="/images/tv.jpg" alt="" />
                 <Row className='service-section-title-wrapper'>
             <Title className='service-section-title'>MEDIA PLANNING & BUYING</Title>
         </Row>

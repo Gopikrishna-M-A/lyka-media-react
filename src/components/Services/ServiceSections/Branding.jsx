@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Typography } from "antd";
-import { AppleOutlined } from "@ant-design/icons";
+import { BulbOutlined, StarOutlined, RightSquareOutlined, CompressOutlined, EyeOutlined, GatewayOutlined, InboxOutlined, RadarChartOutlined } from "@ant-design/icons";
 const { Title } = Typography;
 
 export default function Branding({id}) {
@@ -13,14 +13,14 @@ export default function Branding({id}) {
       <Row className="service-section-content-wrapper">
         <Row className="service-items">
           <div className="service-box">
-            <AppleOutlined className="service-icon" />
+            <BulbOutlined className="service-icon" />
             <Title level={3} className="service-name">
               BRANDING <br /> CONSULTANCY
             </Title>
           </div>
 
           <div className="service-box">
-            <AppleOutlined className="service-icon" />
+            <StarOutlined className="service-icon" />
             <Title level={3} className="service-name">
               CREATIVE <br />
               ADVERTISING
@@ -28,42 +28,42 @@ export default function Branding({id}) {
           </div>
 
           <div className="service-box">
-            <AppleOutlined className="service-icon" />
+            <RightSquareOutlined className="service-icon" />
             <Title level={3} className="service-name">
               CREATIVE <br /> CONTENT
             </Title>
           </div>
-
+ 
           <div className="service-box">
-            <AppleOutlined className="service-icon" />
+            <CompressOutlined className="service-icon" />
             <Title level={3} className="service-name">
               DIGITAL <br /> DESIGN
             </Title>
           </div>
 
           <div className="service-box">
-            <AppleOutlined className="service-icon" />
+            <EyeOutlined className="service-icon" />
             <Title level={3} className="service-name">
               INFORMATION <br /> DESIGN
             </Title>
           </div>
 
           <div className="service-box">
-            <AppleOutlined className="service-icon" />
+            <GatewayOutlined className="service-icon" />
             <Title level={3} className="service-name">
               PUBLICATION <br /> & BTL DESIGN
             </Title>
           </div>
 
           <div className="service-box">
-            <AppleOutlined className="service-icon" />
+            <InboxOutlined className="service-icon" />
             <Title level={3} className="service-name">
               PACKAGING <br /> DESIGN
             </Title>
           </div>
 
           <div className="service-box">
-            <AppleOutlined className="service-icon" />
+            <RadarChartOutlined className="service-icon" />
             <Title level={3} className="service-name">
               BRAND <br /> ACTIVATION
             </Title>

@@ -4,7 +4,8 @@ const { Text, Title } = Typography;
 
 export default function Stratergy({id}) {
   return (
-    <div id={id} className='Service-section' style={{backgroundColor:"#EF6262" }}>
+    <div id={id} className='Service-section'>
+    <img className='bg-img' src="/images/chess.png" alt="" />
     <Row className="service-section-title-wrapper">
         <Title className="service-section-title">SRATERGY & CONSULTANCY</Title>
       </Row>

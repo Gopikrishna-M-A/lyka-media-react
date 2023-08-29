@@ -4,7 +4,8 @@ const { Text, Title } = Typography;
 
 export default function Events({id}) {
   return (
-    <div id={id} className='Service-section' style={{backgroundColor:"#EF6262" }}>
+    <div id={id} className='Service-section' >
+              <img className='bg-img' src="/images/event.jpg" alt="" />
                 <Row className='service-section-title-wrapper'>
             <Title className='service-section-title'>EVENTS</Title>
         </Row>
