@@ -110,6 +110,9 @@ body {
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
+  background-image: url('/public/images/placeholder.png');
+  background-size: cover;
+  background-position: center;
 
 }
 #video{
@@ -180,6 +183,7 @@ body {
 .service-box{
   cursor: pointer;
   max-width: 200px;
+  min-width: 175px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -292,7 +296,7 @@ body {
 /* SERVICE PAGE  */
 
 .Service-section{
-  height:100vh;
+  min-height:100vh;
   padding: 30px 150px;
 }
 
@@ -302,7 +306,10 @@ body {
 
 .service-section-title{
   color: #fff !important;
-  max-width: 267px;
+  font-size: 50px !important;
+  font-weight: bolder !important;
+  width: 50%;
+  min-width: 276px;
 }
 
 
@@ -313,6 +320,8 @@ body {
 .service-section-content{
   margin-top: 100px;
   color: #fff;
+  font-size:18px;
+  font-weight: 600;
 }
 
 
@@ -321,11 +330,20 @@ body {
 
 .about-us{
   padding: 30px 150px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('/public/images/about-bg.jpg');
 }
 .about-section-title-wrapper{
 
 }
-
+.about-section-title{
+  color: #fff ;
+  font-size: 50px !important;
+  font-weight: bolder !important;
+  width: 50%;
+  min-width: 276px;
+}
 .about-section-content-wrapper{
 
 }
@@ -333,6 +351,7 @@ body {
 .about-section-content{
   margin-top: 100px;
   font-weight: 700;
+  font-size: 18px;
 }
 
 
@@ -370,6 +389,7 @@ body {
 }
 
 .bg-img{
+  filter: brightness(.4);
   position: absolute;
   top: 0;
   left: 0;
@@ -385,11 +405,18 @@ body {
     font-size: 70px;
 
   }
+
+.service-section-title{
+  font-size: 41px !important;
+}
 }
 @media (width < 992px){
   .hero-text-lg{
     line-height: 86px;
 
+  }
+  .Service-section{
+    padding: 30px 80px;
   }
 }
 @media (width < 768px){
@@ -404,6 +431,15 @@ body {
   .hero-text-sm {
     font-size: 25px;
   }
+
+  .service-section-title{
+    font-size: 35px !important;
+  }
+  .service-box{
+    max-width: 200px;
+    min-width: 150px;
+
+  }
 }
 @media (width < 576px){
 
@@ -415,6 +451,7 @@ body {
   .hero-text-sm {
     font-size: 16px;
   }
+
 
 
 
@@ -437,12 +474,26 @@ body {
 
 
   .contact-title{
-    font-size: 35px;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .contact-wrapper{
+    padding-left: 20px;
+  }
+  .contact-head{
+    font-size: 24px;
+  }
+  .social-icon{
+    font-size: 25px;
+  }
+  .social-text{
+    font-size: 20px;
+  }
+  .social-link-wrapper{
+    gap: 10px;
   }
 
-
   .Service-section{
-    height:100vh;
     padding: 30px 20px;
   }
 

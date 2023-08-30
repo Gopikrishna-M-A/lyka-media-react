@@ -6,7 +6,7 @@ export default function AboutUs() {
   return (
     <div
       className="about-us"
-      style={{ backgroundColor: "#fff100", height: "100vh", color: "#000" }}
+      style={{ backgroundColor: "#fff100", height: "100vh", color: "#fff" }}
     >
       <Row className="about-section-title-wrapper">
         <Title className="about-section-title">ABOUT US</Title>

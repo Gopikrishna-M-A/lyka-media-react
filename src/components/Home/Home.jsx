@@ -5,7 +5,7 @@ const { Text } = Typography;
 
 const Home = ({ id }) => {
   return (
-    <div className='home' id={id} style={{ minHeight: '100vh', padding: '20px',paddingTop: '0', backgroundColor: '#000'}}>
+    <div className='home' id={id} style={{ minHeight: '100vh', padding: '20px',paddingTop: '0'}}>
 
         <video autoPlay muted loop id="video" src="/video.mp4"></video>
         <Row className='logo-wrapper'>
