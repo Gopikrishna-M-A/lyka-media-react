@@ -19,7 +19,7 @@ const Contact = ({ id }) => {
   return (
     <div
       id={id}
-      style={{ minHeight: "100vh", padding: "20px", backgroundColor: "#f9ee6a" }}
+      style={{ minHeight: "100vh", padding: "20px", backgroundColor: "#f4d703" }}
     >
       <Row className="contact-title-wrapper">
         <Text className="contact-title">CONTACT</Text>

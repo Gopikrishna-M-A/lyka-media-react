@@ -6,8 +6,9 @@ export default function AboutUs() {
   return (
     <div
       className="about-us"
-      style={{ backgroundColor: "#fff100", height: "100vh", color: "#fff" }}
-    >
+      style={{ height: "100vh", color: "#fff" }}
+    > 
+      <img className="bg-img" src="/images/about-bg.jpg" alt="" />
       <Row className="about-section-title-wrapper">
         <Title className="about-section-title">ABOUT US</Title>
       </Row>

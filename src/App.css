@@ -122,6 +122,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  filter: brightness(.4);
   /* z-index: -1; */
 
 }
@@ -132,7 +133,7 @@ body {
   font-size: 40px;
   font-weight: 900;
   color: #fff;
-  text-shadow: 4px 3px 0px #000000, 9px 8px 0px rgba(0,0,0,0.15);
+  /* text-shadow: 4px 3px 0px #000000, 9px 8px 0px rgba(0,0,0,0.15); */
 
 }
 .home-center-text{
@@ -145,13 +146,13 @@ body {
   font-size: 80px;
   font-weight: 900;
   color: #fff;
-  text-shadow: 3px 3px 0px #000000, 5px 4px 0px rgba(0,0,0,0.15);
+  /* text-shadow: 3px 3px 0px #000000, 5px 4px 0px rgba(0,0,0,0.15); */
 }
 .hero-text-sm{
   font-size: 30px;
   font-weight: 900;
   color: #fff;
-  text-shadow: 2px 2px 0px #000000, 3px 3px 0px rgba(0,0,0,0.15);
+  /* text-shadow: 2px 2px 0px #000000, 3px 3px 0px rgba(0,0,0,0.15); */
   
 }
 .end{
@@ -330,15 +331,16 @@ body {
 
 .about-us{
   padding: 30px 150px;
-  background-size: cover;
-  background-position: center;
-  background-image: url('/public/images/about-bg.jpg');
+  overflow: hidden;
+  position: relative;
+  background-color: transparent;
+
 }
 .about-section-title-wrapper{
 
 }
 .about-section-title{
-  color: #fff ;
+  color: #fff !important;
   font-size: 50px !important;
   font-weight: bolder !important;
   width: 50%;
@@ -349,6 +351,7 @@ body {
 }
 
 .about-section-content{
+  color: #fff;
   margin-top: 100px;
   font-weight: 700;
   font-size: 18px;
