@@ -29,7 +29,7 @@ const Service = ({ id }) => {
           
             <div className="service-box" onClick={() => handleServiceClick("service-stratergy")}>
               <HeatMapOutlined className='service-icon'/>
-              <Title level={3} className='service-name'>SRATERGY & CONSULTANCY</Title>
+              <Title level={3} className='service-name'>STRATERGY & CONSULTANCY</Title>
             </div>
 
             <div className="service-box" onClick={() => handleServiceClick("service-branding")}>

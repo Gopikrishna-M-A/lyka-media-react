@@ -13,7 +13,7 @@ const Home = ({ id }) => {
         </Row>
         <Row className='home-center-text'>
                 <Text className='hero-text-lg'>WELCOME TO LYKA MEDIA</Text>
-                <Text className='hero-text-sm'>MEDIA, SOCIAL, EVENTS, DESIGN & BUILD</Text>
+                <Text className='hero-text-sm'>SOCIAL MEDIA, INFLUENCER MARKETING, EVENTS</Text>
         </Row>
         <Row className='end'>
             EXPLORE SERVICES

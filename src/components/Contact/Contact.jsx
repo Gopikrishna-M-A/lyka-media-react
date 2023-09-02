@@ -8,6 +8,7 @@ import {
   InstagramOutlined,
   PhoneOutlined,
 } from "@ant-design/icons";
+import { Link } from "react-router-dom";
 const { Text } = Typography;
 
 
@@ -29,28 +30,28 @@ const Contact = ({ id }) => {
 
         <Row className="social-link-wrapper">
           <MailOutlined className="social-icon" />
-          <Text className="social-text">example@gmail.com</Text>
+          <Text className="social-text">lykamediagroup@gmail.com</Text>
         </Row>
 
         <Text className="social-title">SOCIAL</Text>
-        <Row className="social-link-wrapper">
-          <FacebookOutlined className="social-icon" />
-          <Text className="social-text">example@gmail.com</Text>
-        </Row>
+        <div className="social-icon-wrapper">
+          <Link to={"/services"} className="social-link-wrapper">
+            <FacebookOutlined className="social-icon" />
+          </Link>
 
-        <Row className="social-link-wrapper">
-          <TwitterOutlined className="social-icon" />
-          <Text className="social-text">example@gmail.com</Text>
-        </Row>
+          <Row className="social-link-wrapper">
+            <TwitterOutlined className="social-icon" />
+          </Row>
 
-        <Row className="social-link-wrapper">
-          <InstagramOutlined className="social-icon" />
-          <Text className="social-text">example@gmail.com</Text>
-        </Row>
+          <Row className="social-link-wrapper">
+            <InstagramOutlined className="social-icon" />
+          </Row>
+        </div>
+        
 
         <Row className="social-link-wrapper phone">
           <PhoneOutlined className="social-icon" />
-          <Text className="social-text">+99 9999999999</Text>
+          <Text className="social-text">+97 1543661913</Text>
         </Row>
       </div>
 
