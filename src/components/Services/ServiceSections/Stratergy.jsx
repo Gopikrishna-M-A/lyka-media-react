@@ -7,7 +7,7 @@ export default function Stratergy({ id }) {
     <div id={id} className="Service-section">
       <img className="bg-img" src="/images/Chess.png" alt="" />
       <Row className="service-section-title-wrapper">
-        <Title className="service-section-title">STRATERGY & CONSULTANCY</Title>
+        <Title className="service-section-title">STRATEGY & CONSULTANCY</Title>
       </Row>
 
       <Row className="service-section-content-wrapper para">

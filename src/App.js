@@ -8,19 +8,45 @@ import Services from './components/Services/Services';
 import About from './components/AboutUs/AboutUs.jsx';
 import Loading from './components/Loading/Loading';
 
+// '/images/Chess.png', 
+// '/images/social.jpg',
+// '/images/mike.jpg',
+// '/images/tv.jpg',
+// '/images/event.jpg',
+// '/video.mp4'
+
 const App = () => {
 
   const [isLoading, setIsLoading] = useState(true);
   const [progress, setProgress] = useState(0);
 
-  // Simulate an image loading delay (replace with your actual loading logic)
   useEffect(() => {
-    const totalAssets = 10; // Replace with the total number of assets to load
+    // Function to preload an asset (image or video)
+    const preloadAsset = (url) => {
+      return new Promise((resolve, reject) => {
+        const asset = new Image();
+        asset.src = url;
+        asset.onload = resolve;
+        asset.onerror = reject;
+      });
+    };
+
+    // List of image and video URLs in the public folder
+    const assetUrls = [
+      '/images/Chess.png', 
+      '/images/social.jpg',
+      '/images/mike.jpg',
+      '/images/tv.jpg',
+      '/images/event.jpg',
+      '/video.mp4'
+    ];
+
+    const totalAssets = assetUrls.length;
     let loadedAssets = 0;
 
     const updateProgress = () => {
       loadedAssets++;
-      const newProgress = (loadedAssets / totalAssets) * 100;
+      const newProgress = Math.round((loadedAssets / totalAssets) * 100)
       setProgress(newProgress);
 
       if (loadedAssets === totalAssets) {
@@ -28,19 +54,25 @@ const App = () => {
       }
     };
 
-    // Simulate loading each asset
-    const assetLoadingInterval = setInterval(() => {
-      updateProgress();
-      if (loadedAssets === totalAssets) {
-        clearInterval(assetLoadingInterval);
-      }
-    }, 300); // Adjust the delay as needed
+    // Preload each asset
+    assetUrls.forEach((url) => {
+      preloadAsset(url)
+        .then(() => {
+          updateProgress();
+        })
+        .catch((error) => {
+          console.error('Error preloading asset:', error);
+          updateProgress(); // Update progress even if an asset fails to load
+        });
+    });
 
     // Clean up when component unmounts
     return () => {
-      clearInterval(assetLoadingInterval);
+      // You can cancel any ongoing asset preload here if needed
     };
   }, []);
+
+
 
   return (
     <ConfigProvider

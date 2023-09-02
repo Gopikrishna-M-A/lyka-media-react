@@ -7,7 +7,7 @@ export default function Social({ id }) {
     <div id={id} className="Service-section">
       <img className="bg-img" src="/images/social.jpg" alt="" />
       <Row className="service-section-title-wrapper">
-        <Title className="service-section-title">SOCIAL MEDIA</Title>
+        <Title className="service-section-title">SOCIAL MEDIA MARKETING</Title>
       </Row>
 
       <Row className="service-section-content-wrapper para">

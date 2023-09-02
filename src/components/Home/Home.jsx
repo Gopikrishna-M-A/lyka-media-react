@@ -8,9 +8,9 @@ const Home = ({ id }) => {
     <div className='home' id={id} style={{ minHeight: '100vh', padding: '20px',paddingTop: '0'}}>
 
         <video autoPlay muted loop id="video" src="/video.mp4"></video>
-        <Row className='logo-wrapper'>
-            <Text className='logo'>LYKA MEDIA</Text>
-        </Row>
+        <div className='logo-wrapper'>
+            <img className='logo-img' src="/images/logo.png" alt="" />
+        </div>
         <Row className='home-center-text'>
                 <Text className='hero-text-lg'>WELCOME TO LYKA MEDIA</Text>
                 <Text className='hero-text-sm'>SOCIAL MEDIA, INFLUENCER MARKETING, EVENTS</Text>

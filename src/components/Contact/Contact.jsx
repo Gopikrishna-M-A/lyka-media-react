@@ -54,7 +54,7 @@ const Contact = ({ id }) => {
 
           <Row className="social-link-wrapper phone">
             <PhoneOutlined className="social-icon" />
-            <Text className="social-text">+97 1543661913</Text>
+            <Text className="social-text">+971 543661913</Text>
           </Row>
         </div>
         <div className="right">

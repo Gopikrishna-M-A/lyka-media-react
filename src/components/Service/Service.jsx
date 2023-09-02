@@ -29,7 +29,7 @@ const Service = ({ id }) => {
           
             <div className="service-box" onClick={() => handleServiceClick("service-stratergy")}>
               <HeatMapOutlined className='service-icon'/>
-              <Title level={3} className='service-name'>STRATERGY & CONSULTANCY</Title>
+              <Title level={3} className='service-name'>STRATEGY & CONSULTANCY</Title>
             </div>
 
             <div className="service-box" onClick={() => handleServiceClick("service-branding")}>
@@ -39,7 +39,7 @@ const Service = ({ id }) => {
 
             <div className="service-box" onClick={() => handleServiceClick("service-social")}>
               <ShareAltOutlined  className='service-icon' />
-              <Title level={3} className='service-name'>SOCIAL MEDIA</Title>
+              <Title level={3} className='service-name'>SOCIAL MEDIA MARKETING</Title>
             </div>
 
             <div className="service-box" onClick={() => handleServiceClick("service-digital")}>

@@ -144,13 +144,12 @@ body {
 }
 .logo-wrapper{
   z-index: 1;
+  width: 150px;
+  margin: 10px;
+  cursor: pointer;
 }
-.logo{  
-  font-size: 40px;
-  font-weight: 900;
-  color: #fff;
-  /* text-shadow: 4px 3px 0px #000000, 9px 8px 0px rgba(0,0,0,0.15); */
-
+.logo-img{  
+  max-width: 100%;
 }
 .home-center-text{
   z-index: 1;
