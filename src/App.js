@@ -27,7 +27,7 @@ const App = () => {
         const asset = new Image();
         asset.src = url;
         asset.onload = resolve;
-        asset.onerror = reject;
+        asset.onerror = reject(`Error loading asset at URL: ${url}`);
       });
     };
 
@@ -44,7 +44,7 @@ const App = () => {
       '/images/mike.jpg',
       '/images/tv.jpg',
       '/images/event.jpg',
-      '/placeholder.jpg',
+      '/images/placeholder.jpg',
       '/video.mp4'
     ];
 

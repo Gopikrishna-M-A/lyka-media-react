@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Typography, Button, Form, Input } from "antd";
+import { Row, Avatar, Typography, Button, Form, Input } from "antd";
 
 import {
   MailOutlined,
@@ -33,23 +33,18 @@ const Contact = ({ id }) => {
         <div className="left">
           <Text className="contact-head">Tell us about your project</Text>
           <Row className="social-link-wrapper">
-            <MailOutlined className="social-icon" />
-            <Text className="social-text">lykamediagroup@gmail.com</Text>
+            <Link className="icon-link" to="mailto:wanderinggfoodie@gmail.com" target="_blank"><MailOutlined className="social-icon" /></Link>
+            <Text className="social-text">contact@lykamedia.com</Text>
           </Row>
 
           <Text className="social-title">SOCIAL</Text>
           <div className="social-icon-wrapper">
-            <Link to={"/services"} className="social-link-wrapper">
-              <FacebookOutlined className="social-icon" />
-            </Link>
-
-            <Row className="social-link-wrapper">
-              <TwitterOutlined className="social-icon" />
-            </Row>
-
-            <Row className="social-link-wrapper">
-              <InstagramOutlined className="social-icon" />
-            </Row>
+          <Link className="icon-link" to="https://www.tiktok.com/@wanderingfoodie?lang=en" target="_blank"><Avatar className="icons" src={require('./logos/tiktok.png')} /></Link>
+          <Link className="icon-link" to="https://www.facebook.com/people/wanderingg_foodie/100063618180148/" target="_blank"><Avatar className="icons" src={require('./logos/facebook.png')} /></Link>
+          <Link className="icon-link" to="https://www.instagram.com/wanderingg_foodie/?hl=en" target="_blank"><Avatar className="icons" src={require('./logos/instagram.png')} /></Link>
+          <Link className="icon-link" to="https://www.youtube.com/channel/UC0Iws137nObLZ0_DtUixruw" target="_blank"><Avatar className="icons" src={require('./logos/youtube.png')} /></Link>
+          <Link className="icon-link" to="https://www.threads.net/@wanderingg_foodie" target="_blank"><Avatar className="icons" src={require('./logos/threads.png')} /></Link>
+          
           </div>
 
           <Row className="social-link-wrapper phone">
