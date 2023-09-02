@@ -149,6 +149,7 @@ body {
   cursor: pointer;
 }
 .logo-img{  
+  margin-left: -35px;
   max-width: 100%;
 }
 .home-center-text{

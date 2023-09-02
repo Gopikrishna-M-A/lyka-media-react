@@ -33,11 +33,18 @@ const App = () => {
 
     // List of image and video URLs in the public folder
     const assetUrls = [
+
+      '/images/1.png', 
+      '/images/2.png', 
+      '/images/3.png', 
+      '/images/4.png', 
+      '/images/about-bg.jpg', 
       '/images/Chess.png', 
       '/images/social.jpg',
       '/images/mike.jpg',
       '/images/tv.jpg',
       '/images/event.jpg',
+      '/placeholder.jpg',
       '/video.mp4'
     ];
 
