@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import { ConfigProvider } from 'antd';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Landing from "./components/landing.jsx";
 import Header from './components/Header/Header';
 import Services from './components/Services/Services';
